@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    int square, cube;
+
+    // Input number
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Calculate square and cube
+    square = num * num;
+    cube = num * num * num;
+
+    // Display results
+    printf("Square = %d\n", square);
+    printf("Cube = %d\n", cube);
+
+    return 0;
+}
